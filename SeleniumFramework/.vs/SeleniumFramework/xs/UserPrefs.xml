@@ -1,4 +1,21 @@
-﻿<Properties>
-  <MonoDevelop.Ide.ItemProperties.SeleniumFramework FirstBuild="True" />
+﻿<Properties StartupConfiguration="{330C6F2D-0829-41DB-97BA-6603B7AE3C20}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumFramework/testhost.dll.config">
+    <Files>
+      <File FileName="SeleniumFramework/testhost.dll.config" Line="13" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SeleniumFramework" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SeleniumFramework PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
