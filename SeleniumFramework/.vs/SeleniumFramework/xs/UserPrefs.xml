@@ -1,12 +1,20 @@
 ﻿<Properties StartupConfiguration="{330C6F2D-0829-41DB-97BA-6603B7AE3C20}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumFramework/testhost.dll.config">
     <Files>
-      <File FileName="SeleniumFramework/testhost.dll.config" Line="13" Column="19" />
+      <File FileName="SeleniumFramework/testhost.dll.config" Line="8" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SeleniumFramework" expanded="True" />
+          <Node name="SeleniumFramework" expanded="True">
+            <Node name="SeleniumFramework" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="PageObject" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

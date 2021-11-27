@@ -1,2 +1,5 @@
 
 *.cache
+SeleniumFramework/.DS_Store
+SeleniumFramework/SeleniumFramework/obj/Debug/netcoreapp3.1/SeleniumFramework.assets.cache
+*.cache
