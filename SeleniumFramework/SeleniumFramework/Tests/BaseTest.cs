@@ -13,11 +13,10 @@ namespace SeleniumTask.Tests
         [SetUp]
         public void TestSetup()
         {
-            string path = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None).FilePath;
-
-            var drivere= ConfigurationManager.AppSettings["WebDriverPath"];
-            driver = new ChromeDriver(drivere);
+            var driverPath= ConfigurationManager.AppSettings["WebDriverPath"];
+            driver = new ChromeDriver(driverPath);
             driver.Navigate().GoToUrl(ConfigurationManager.AppSettings.Get("ApplicationUrl"));
+            driver.Manage().Window.Maximize();
         }
 
         [TearDown]

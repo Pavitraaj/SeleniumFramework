@@ -16,7 +16,7 @@ namespace SeleniumTask.PageObjects
         ///  find element by partial id because for price label locater
         ///  have two different values for the second substring of id if the item in sale
         /// </summary>
-        private static By priceTextLocator = By.CssSelector("span[id^='priceblock_']");
+        private static By priceTextLocator = By.ClassName("a-offscreen");
         private IWebElement productPriceTxt;
 
         /// <summary>
@@ -25,12 +25,14 @@ namespace SeleniumTask.PageObjects
         /// <returns></returns>
         public decimal GetProductPrice()
         {
+            NumberStyles style;
+            decimal priceInDecimal;
+            CultureInfo culture;
+            style = NumberStyles.Number | NumberStyles.AllowCurrencySymbol;
+            culture = CultureInfo.CreateSpecificCulture("en-US");
             string priceText = productPriceTxt.GetAttribute("innerHTML");
-            decimal priceInDecimal = 0;
-            Decimal.TryParse(priceText,
-               NumberStyles.Currency,
-               CultureInfo.CurrentCulture,
-               out priceInDecimal);
+
+            Decimal.TryParse(priceText, style, culture, out priceInDecimal);
             return priceInDecimal;
         }
 
