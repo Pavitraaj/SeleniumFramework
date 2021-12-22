@@ -3,3 +3,5 @@
 SeleniumFramework/.DS_Store
 SeleniumFramework/SeleniumFramework/obj/Debug/netcoreapp3.1/SeleniumFramework.assets.cache
 *.cache
+SeleniumFramework/SeleniumFramework/obj/Debug/netcoreapp3.1/SeleniumFramework.csproj.AssemblyReference.cache
+SeleniumFramework/.vs/SeleniumFramework/xs/UserPrefs.xml

@@ -1,43 +1,23 @@
 ﻿<Properties StartupConfiguration="{330C6F2D-0829-41DB-97BA-6603B7AE3C20}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumFramework/Tests/BaseTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumFramework/testhost.dll.config">
     <Files>
-      <File FileName="SeleniumFramework/Tests/SearchForProductTest.cs" Line="31" Column="1" />
-      <File FileName="SeleniumFramework/Tests/BaseTest.cs" Line="16" Column="66" />
-      <File FileName="SeleniumFramework/PageObject/BasePage.cs" Line="1" Column="1" />
-      <File FileName="SeleniumFramework/PageObject/HomePage.cs" Line="1" Column="1" />
-      <File FileName="SeleniumFramework/PageObject/SearchResultPage.cs" Line="1" Column="1" />
-      <File FileName="SeleniumFramework/PageObject/ProductDetailsPage.cs" Line="37" Column="10" />
-      <File FileName="SeleniumFramework/testhost.dll.config" Line="1" Column="1" />
+      <File FileName="SeleniumFramework/Tests/SearchForProductTest.cs" Line="17" Column="20" />
+      <File FileName="SeleniumFramework/Tests/BaseTest.cs" />
+      <File FileName="SeleniumFramework/PageObject/BasePage.cs" />
+      <File FileName="SeleniumFramework/PageObject/HomePage.cs" />
+      <File FileName="SeleniumFramework/PageObject/SearchResultPage.cs" />
+      <File FileName="SeleniumFramework/PageObject/ProductDetailsPage.cs" />
+      <File FileName="SeleniumFramework/testhost.dll.config" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SeleniumFramework" expanded="True">
             <Node name="SeleniumFramework" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
+              <Node name="Dependencies" expanded="True" />
               <Node name="PageObject" expanded="True" />
-              <Node name="Tests" expanded="True">
-                <Node name="BaseTest.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="SeleniumFramework" expanded="True">
-            <Node name="SeleniumFramework" expanded="True">
-              <Node name="SeleniumTask.Tests" expanded="True">
-                <Node name="SearchForProductTest" expanded="True">
-                  <Node name="SearchForProduct_WhenCustomerClickFirstProductInTheResultList_ThenProductPriceShouldBeGreaterThanDefinedValue(&quot;laptop&quot;,100)" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Tests" expanded="True" />
+              <Node name="testhost.dll.config" selected="True" />
             </Node>
           </Node>
         </State>
